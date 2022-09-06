@@ -1,0 +1,122 @@
+body {
+    background: rgb(	219, 112, 147);
+  }
+  
+  .todo-container {
+    background: rgb(240,248,255);
+    width: 24vw;
+    height: 24vw;
+    margin: 10em auto;
+    border-radius: 15px;
+    padding: 20px 10px;
+    color: #000000;
+    border: 3px solid rgb(240,248,255);
+  }
+  
+  .task {
+  
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 0.5em;
+  }
+  .task1 {
+    font-size: 16px;
+  
+  }
+
+  input.smaller{
+    width: 7px;
+    height: 7px;
+  }
+  
+  .task button{
+    border-color: #000000;
+    background: #FFF;
+    stroke-width: 12px;
+    border-radius: 26px;
+    margin: 0px 5px;
+    width: 69px;
+    height: 27px;
+    padding: 3px 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    color: #000000;
+    float: right;
+  }
+  
+  .task1 button1{
+    border-color: #000000;
+    background: #FFF;
+    stroke-width: 12px;
+    border-radius: 26px;
+    margin: 0px 5px;
+    width: 42px;
+    height: 27px;
+    padding: 3px 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    color: #000000;
+    float: right;
+  }
+
+  .header {
+    margin: 0.5em;
+    font-size: 2em;
+    text-align: center;
+  }
+  .headerrow{
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: space-between; 
+  }
+  .headerrow11{
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap; 
+    justify-content: space-between;              /* default value; can be omitted */
+   }
+  .left{
+    padding-left: 44px;
+    font-size: 24px;
+  }
+  .right{
+    padding-right:44px ;
+  }
+
+  .new-bttn{
+    border-color: #000000;
+    border: 1px solid black;
+    stroke-width: 12px;
+    border-radius: 26px;
+    margin: 4.5em 2em;
+    background: white;
+    width: 72px;
+    height: 28px;
+    font-size: 16px;
+    outline: none;
+ 
+    margin-bottom: 0px;
+    position: fixed;
+    right: 600px;
+    bottom: 178px;
+    padding: 1.4em;
+  }
+  .create-task input[type=text] {
+    margin: 2.5em 2em;
+    width: 180px;
+    outline: none;
+    border: none;
+    margin-bottom: 0px;
+    position: fixed;
+    bottom: 178px;
+    padding: 0.7em;
+  }
+  .leftmar{
+    float: right;   
+    border-top-left-radius: 65px;
+border-top-right-radius: 65px;
+border-bottom-right-radius: 65px;
+border-bottom-left-radius: 65px;
+  }
